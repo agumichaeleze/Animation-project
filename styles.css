@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1, p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+/* #showcase{
+   height: 300px;
+} */
+#showcase h1{
+    font-size: 50px;
+    padding: 15px 0px;
+    line-height: 20px;
+    transition: all 2s;
+    /* animation-name: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; */
+}
+h1:hover{
+    background-color: brown;
+    color: blueviolet;
+}
+
+/* @keyframes heading{
+    0%   {top: -50px;}
+    100% {top: 200px;}
+} */
+
+/* #lorem p{
+   padding: 120px 30px 40px;
+} */
+
